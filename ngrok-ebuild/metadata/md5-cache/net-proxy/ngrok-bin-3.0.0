@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=This is a sample skeleton ebuild file
+EAPI=8
+HOMEPAGE=https://ngrok.org
+KEYWORDS=~amd64
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+_md5_=b090c1fb2143aba71fde1bfe81446fbf
