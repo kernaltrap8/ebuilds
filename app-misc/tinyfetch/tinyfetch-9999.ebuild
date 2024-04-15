@@ -8,7 +8,7 @@ if [[ ${PV} == 9999 ]]; then
 	S="${WORKDIR}/${PN}-9999"
 fi
 
-DESCRIPTION="fetch program written in pure C"
+DESCRIPTION="fetch program written in C & C++"
 HOMEPAGE="https://github.com/kernaltrap8/tinyfetch"
 
 LICENSE="GPL-3"
