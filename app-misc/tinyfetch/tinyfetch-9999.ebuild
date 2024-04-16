@@ -19,3 +19,9 @@ DEPEND="${BDEPEND}"
 BDEPEND="
 	dev-build/meson
 "
+
+src_configure() {
+	append-cxxflags "-Wno-unused-result"
+
+	meson_src_configure
+}
