@@ -25,10 +25,3 @@ HOMEPAGE="https://github.com/kernaltrap8/tinyfetch"
 
 LICENSE="GPL-3"
 SLOT="0"
-
-src_unpack() {	
-	if use pci ; then
-		EGIT_BRANCH=pci
-	fi
-	git-r3_src_unpack
-}
